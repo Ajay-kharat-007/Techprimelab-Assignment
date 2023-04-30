@@ -1,0 +1,95 @@
+<main>
+    <app-sidebar></app-sidebar>
+    <div class="right">
+        <app-header></app-header>
+        <div class="box">
+            <form [formGroup]="projectForm" (ngSubmit)="getData()">
+                <div class="heading">
+                    <input formControlName="projectName" required type="text" class="form-control"
+                        placeholder="Enter Project Theme">
+                    <button class="btn btn-primary">Save Project</button>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label for="">Reason</label>
+                        <select formControlName="reason" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Business">Business</option>
+                            <option value="Dealership">Dealership</option>
+                            <option value="Transport">Transport</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Type</label>
+                        <select formControlName="type" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Internal">Internal</option>
+                            <option value="External">External</option>
+                            <option value="Vendor">Vendor</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Division</label>
+                        <select formControlName="division" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Filters">Filters</option>
+                            <option value="Compressor">Compressor</option>
+                            <option value="Pumps">Pumps</option>
+                            <option value="Glass">Glass</option>
+                            <option value="Water Heater">Water Heater</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Category</label>
+                        <select formControlName="category" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Quality A">Quality A</option>
+                            <option value="Quality B">Quality B</option>
+                            <option value="Quality C">Quality C</option>
+                            <option value="Quality D">Quality D</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Priority</label>
+                        <select formControlName="priority" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="High">High</option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Department</label>
+                        <select formControlName="department" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Strategy">Strategy</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Quality">Quality</option>
+                            <option value="Maintenance">Maintenance</option>
+                            <option value="Stores">Stores</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Start Date as per Project Plan</label>
+                        <input formControlName="sdate" type="date" class="form-select form-select-lg mb-3">
+                    </div>
+                    <div>
+                        <label for="">End Date as per Project Plan</label>
+                        <input formControlName="edate" type="date" class="form-select form-select-lg mb-3">
+                    </div>
+                    <div>
+                        <label for="">Location</label>
+                        <select formControlName="location" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example">
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi">Delhi</option>
+                        </select>
+                    </div>
+                    <p *ngIf="ram">status : <b>Registered</b></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

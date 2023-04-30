@@ -1,0 +1,120 @@
+main {
+    background-color: #F3F5F7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    .left {
+        width: 58px;
+        height: 100%;
+        border: 2px solid black;
+        background-color: white;
+        .click-logo{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            hr{
+                height: 1px;
+                width: 33px;
+                border: 1px solid #979797;
+            }
+            #dashboard{
+                position: relative;
+                top: 156px;
+            }
+            #project-list{
+                position: relative;
+                top: 80px;
+            }
+            #create-project{
+                position: relative;
+                bottom: 90px;
+            }
+        }
+    }
+
+    .right {
+        height: 100%;
+        width: 69vw;
+
+        .top {
+            background-image: url('../../../assets/Header-bg.svg');
+            height: 300px;
+            width: 1442px;
+            background-repeat: no-repeat;
+            h1{
+                color: white;
+                font-size: 22px;
+                position: relative;
+                top: 39px;
+                left: 32px;
+            }
+            .logo{
+                position: relative;
+                left: 650px;
+                bottom: 12px;
+                img{
+                    width: 60px;
+                    height: 53px;
+                }
+            }
+        }
+
+        .middle {
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
+            bottom: 200px;
+
+            .box {
+                width: 238px;
+                height: 83px;
+                border-radius: 4px;
+                box-shadow: 0 4px 21px 0 rgba(173, 182, 217, 0.27);
+                background-color: #FFFFFF;
+                font-size: 40px;
+                overflow: hidden;
+                display: flex;
+                .ll{
+                    width: 9px;
+                    height: 100%;
+                    background-color: #0CC9E8;
+
+                }
+                .rr{
+                    width: 96%;
+                    height: 100%;
+                    p{
+                        position: relative;
+                        left: 10px;
+                        top: 6px;
+                        padding: 0;
+                        margin: 10;
+                    }
+                }
+            }
+        }
+
+        .bottom{
+            p {
+                font-size: 20px;
+                position: relative;
+                left: 25px;
+                bottom: 180px;
+            }
+            .box{
+                width: 635px;
+                height: 387px;
+                border-radius: 10px;
+                box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+                background-color: #FFFFFF;
+                position: relative;
+                left: 25px;
+                bottom: 170px;
+                padding: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<main>
+    <div class="logo">
+        <img src="../../../assets/Logo.svg" alt="LOGO">
+        <div class="para">
+            <p>Online Project Management</p>
+        </div>
+    </div>
+</main>
+<div class="box">
+    <form #loginForm="ngForm" (submit)="loginUser(loginForm.value)">
+        <div>
+            <p>Login to get started</p>
+        </div>
+        <div>
+            <label for="email" [ngClass]="email.invalid && email.touched?'nnn': 'mmm'">Email</label>
+            <input type="email" #email="ngModel" id="email" name="email" required ngModel class="form-control">
+            <p [style.fontSize]="'14px'" class="text-danger" *ngIf="email.invalid && email.touched">Email is required</p>
+        </div>
+        <div>
+            <label for="password" [ngClass]="password.invalid && password.touched?'nnn':'mmm'">Password</label>
+            <input type="password" #password="ngModel" id="password" required name="password" ngModel class="form-control">
+            <small [style.fontSize]="'14px'" class="text-danger" *ngIf="password.invalid && password.touched">Password is required</small>
+            <a href="">Forgot password?</a>
+        </div>
+        <div>
+            <button class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,49 @@
+<main>
+    <app-sidebar></app-sidebar>
+    <div class="right">
+        <app-header></app-header>
+        <div class="middle">
+            <div class="box">
+                <div class="ll"></div>
+                <div class="rr">
+                    <p style="font-size: 15px;">Total Project</p>
+                    <p>{{total}}</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="ll"></div>
+                <div class="rr">
+                    <p style="font-size: 15px;">Closed</p>
+                    <p>{{closed}}</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="ll"></div>
+                <div class="rr">
+                    <p style="font-size: 15px;">Running</p>
+                    <p>{{running}}</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="ll"></div>
+                <div class="rr">
+                    <p style="font-size: 15px;">Closure Delay</p>
+                    <p>{{registered}}</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="ll"></div>
+                <div class="rr">
+                    <p style="font-size: 15px;">Cancelled</p>
+                    <p>{{cancelled}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Department wise - Total Vs Closed</p>
+            <div class="box">
+                <app-chart></app-chart>
+            </div>
+        </div>
+    </div>
+</main>

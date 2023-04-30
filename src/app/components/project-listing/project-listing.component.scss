@@ -1,0 +1,68 @@
+main {
+    background-color: #F3F5F7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    .right {
+        height: 100%;
+        width: 69vw;
+
+        .top {
+            background-image: url('../../../assets/Header-bg.svg');
+            height: 300px;
+            width: 1442px;
+            background-repeat: no-repeat;
+
+            h1 {
+                color: white;
+                font-size: 22px;
+                position: relative;
+                top: 39px;
+                left: 32px;
+            }
+
+            .logo {
+                position: relative;
+                left: 650px;
+                bottom: 12px;
+
+                img {
+                    width: 60px;
+                    height: 53px;
+                }
+            }
+        }
+
+        .box {
+            position: relative;
+            left: 15px;
+            bottom: 135px;
+            height: 595px;
+            width: 1276px;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+            mat-form-field{
+                width: 100%;
+            }
+            .buton {
+                height: 25px;
+                width: 65px;
+                border-radius: 18px;
+                background-color: #025AAB;
+                color: #FFFFFF;
+                font-size: 14px;
+                box-sizing: border-box;
+            }
+            .butttton{
+                height: 25px;
+                width: 65px;
+                border-radius: 18px;
+                color: #025AAB;
+                font-size: 14px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.top {
+    background-image: url('../../../assets/Header-bg.svg');
+    height: 300px;
+    width: 1442px;
+    background-repeat: no-repeat;
+    h1{
+        color: white;
+        font-size: 22px;
+        position: relative;
+        top: 39px;
+        left: 32px;
+    }
+    .logo{
+        position: relative;
+        left: 650px;
+        bottom: 12px;
+        img{
+            width: 60px;
+            height: 53px;
+        }
+    }
+}
