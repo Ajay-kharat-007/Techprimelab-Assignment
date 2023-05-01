@@ -1,7 +1,9 @@
 .top {
     background-image: url('../../../assets/Header-bg.svg');
-    height: 300px;
-    width: 1442px;
+    height: 150px;
+    width: 1850px;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     h1{
         color: white;
@@ -15,7 +17,7 @@
         left: 650px;
         bottom: 12px;
         img{
-            width: 60px;
+            width: 70px;
             height: 53px;
         }
     }

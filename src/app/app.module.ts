@@ -23,6 +23,7 @@ import {MatPaginatorModule} from "@angular/material/paginator"
 import {MatSortModule} from "@angular/material/sort"
 import { NgChartsModule } from 'ng2-charts';
 import { ChartComponent } from './components/chart/chart.component';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { ChartComponent } from './components/chart/chart.component';
     MatPaginatorModule,
     MatSortModule,
     NgChartsModule,    
+    ToastrModule.forRoot()
     
   ],
   providers: [],

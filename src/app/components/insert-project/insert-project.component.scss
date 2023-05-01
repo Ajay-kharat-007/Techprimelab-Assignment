@@ -1,5 +1,5 @@
 main {
-    background-color: #F3F5F7;
+    background-color: #F0F3F6;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -36,13 +36,15 @@ main {
     }
 
     .box {
+        background-color: #FFFFFF;
         width: 1268px;
-        height: 796px;
+        height: 756px;
         border-radius: 10px;
         box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
         position: relative;
-        bottom: 200px;
-        left: 25px;
+        bottom: 30px;
+        
+        left: 60px;
 
         .heading {
             display: flex;
