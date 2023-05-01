@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
+import { BehaviorSubject } from 'rxjs'
 
 
 @Injectable({
@@ -9,11 +10,13 @@ export class ProjectDataService {
 
   constructor(private _http: HttpClient) { }
 
+  user = new BehaviorSubject<any>(null)
+
   getData() {
     return this._http.get(`http://localhost:3000/projects`)
   }
 
-  getDataById(id:any){
+  getDataById(id: any) {
     return this._http.get(`http://localhost:3000/users/${id}`)
   }
 
