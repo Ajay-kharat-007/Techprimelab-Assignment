@@ -14,13 +14,13 @@
         <div>
             <label for="email">Email</label>
             <input type="email" formControlName="id" class="form-control">
-            <p [style.fontSize]="'14px'"  class="text-danger">Email is required</p>
+            <!-- <p [style.fontSize]="'14px'"  class="text-danger">Email is required</p> -->
         </div>
         <div>
             <label for="password" >Password</label>
             <input type="password" formControlName="password"  class="form-control">
-            <small [style.fontSize]="'14px'" class="text-danger">Password is required</small>
-            <a href="">Forgot password?</a>
+            <!-- <small [style.fontSize]="'14px'" class="text-danger">Password is required</small> -->
+            <a routerLink="/dashboard" style="margin-top: 10px;">Forgot password?</a>
         </div>
         <div>
             <button class="btn btn-primary" >Login</button>

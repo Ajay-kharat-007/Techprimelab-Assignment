@@ -11,7 +11,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Running",
+      "status": "Closed",
       "id": 1
     },
     {
@@ -25,7 +25,7 @@
       "sdate": "2023-03-31",
       "edate": "2023-04-07",
       "location": "Mumbai",
-      "status": "Running",
+      "status": "Cancelled",
       "id": 2
     },
     {
@@ -39,7 +39,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Running",
+      "status": "Closed",
       "id": 3
     },
     {
@@ -53,7 +53,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Running",
+      "status": "Cancelled",
       "id": 4
     },
     {
@@ -237,24 +237,38 @@
       "location": "Pune",
       "status": "Running",
       "id": 17
+    },
+    {
+      "projectName": "Water Project",
+      "reason": "Dealership",
+      "type": "External",
+      "division": "Pumps",
+      "category": "Quality B",
+      "priority": "Low",
+      "department": "Quality",
+      "sdate": "2023-05-19",
+      "edate": "2023-05-05",
+      "location": "Mumbai",
+      "status": "Cancelled",
+      "id": 18
     }
   ],
   "users": [
     {
       "id": "Ajay007",
-      "password" : "Ajay@123"
+      "password": "Ajay@123"
     },
     {
       "id": "rohan.kharat@gmail.com",
-      "password" : "Rohan@123"
+      "password": "Rohan@123"
     },
     {
       "id": "rahul.dawle@gmail.com",
-      "password" : "Ajay@123"
+      "password": "Ajay@123"
     },
     {
       "id": "kiran12@gmail.com",
-      "password" : "Kiran@123"
+      "password": "Kiran@123"
     }
   ]
 }
