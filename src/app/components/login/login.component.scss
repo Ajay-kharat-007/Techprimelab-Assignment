@@ -1,14 +1,17 @@
 main {
     height: 472px;
-    width: 1366px;
+    width: 1930px;
     background-image: url(../../../assets/login-bg-1.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .logo {
     position: relative;
     top: 70px;
-    left: 641px;
+    left: 941px;
 
     .para {
         font-size: 16px;
@@ -26,7 +29,7 @@ main {
     border-radius: 10px;
     position: relative;
     border: 1px solid grey;
-    left: 478px;
+    left: 778px;
     bottom: 250px;
     background-color: white;
     form{

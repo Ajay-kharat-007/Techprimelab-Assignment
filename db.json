@@ -25,7 +25,7 @@
       "sdate": "2023-03-31",
       "edate": "2023-04-07",
       "location": "Mumbai",
-      "status": "Closed",
+      "status": "Running",
       "id": 2
     },
     {
@@ -53,7 +53,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Closed",
+      "status": "Running",
       "id": 4
     },
     {
@@ -67,7 +67,7 @@
       "sdate": "2023-03-31",
       "edate": "2023-04-06",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 5
     },
     {
@@ -81,7 +81,7 @@
       "sdate": "2023-04-08",
       "edate": "2023-03-31",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 6
     },
     {
@@ -95,7 +95,7 @@
       "sdate": "2023-04-01",
       "edate": "2023-04-29",
       "location": "Mumbai",
-      "status": "Closed",
+      "status": "Running",
       "id": 7
     },
     {
@@ -109,7 +109,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 8
     },
     {
@@ -123,7 +123,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 9
     },
     {
@@ -137,7 +137,7 @@
       "sdate": "2023-03-31",
       "edate": "2023-04-06",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 10
     },
     {
@@ -151,7 +151,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 11
     },
     {
@@ -165,7 +165,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 12
     },
     {
@@ -179,7 +179,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 13
     },
     {
@@ -193,7 +193,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 14
     },
     {
@@ -207,7 +207,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 15
     },
     {
@@ -221,7 +221,7 @@
       "sdate": "Jun-21, 2020",
       "edate": "Jan-01, 2021",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 16
     },
     {
@@ -235,8 +235,26 @@
       "sdate": "2023-04-08",
       "edate": "2023-04-15",
       "location": "Pune",
-      "status": "Registered",
+      "status": "Running",
       "id": 17
+    }
+  ],
+  "users": [
+    {
+      "id": "ajay.kharat@gmail.com",
+      "password" : "Ajay@123"
+    },
+    {
+      "id": "rohan.kharat@gmail.com",
+      "password" : "Rohan@123"
+    },
+    {
+      "id": "rahul.dawle@gmail.com",
+      "password" : "Ajay@123"
+    },
+    {
+      "id": "kiran12@gmail.com",
+      "password" : "Kiran@123"
     }
   ]
 }

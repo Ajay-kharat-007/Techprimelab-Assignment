@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -9,7 +10,11 @@ export class ProjectDataService {
   constructor(private _http: HttpClient) { }
 
   getData() {
-    return this._http.get('http://localhost:3000/projects')
+    return this._http.get(`http://localhost:3000/projects`)
+  }
+
+  getDataById(id:any){
+    return this._http.get(`http://localhost:3000/users/${id}`)
   }
 
   postData(data: any) {
